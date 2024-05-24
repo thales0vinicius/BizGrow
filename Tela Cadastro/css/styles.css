@@ -1,0 +1,29 @@
+body {
+    background-image: url("./../../arquivos/Tela Cadastro/colmeia.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 60%;
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: none;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    body {
+        background-image: block;
+    }
+}
+
+@media screen and (min-width: 1474px) {
+    body {
+        background-image: none;
+    }
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
