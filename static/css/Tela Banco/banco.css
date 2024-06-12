@@ -1,0 +1,25 @@
+/* Fundo */
+
+body {
+    background-color: #f3f3f3;
+}
+
+/* Fundo */
+
+/* Viewport */
+
+main {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+/* Viewport */
+
+/* Estiização CSS */
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+/* Estiização CSS */

@@ -1,0 +1,45 @@
+/* Importação de Fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Importação de Fontes */
+
+/* Fundo */
+
+body {
+    background-color: #f3f3f3;
+}
+
+/* Fundo */
+
+/* Viewports */
+
+main {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+/* Viewports */
+
+/* Estilização */
+
+ul>li>a>p:hover {
+    color: #FAD32F;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+a>img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilização */

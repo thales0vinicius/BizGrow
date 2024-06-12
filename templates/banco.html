@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./../../static/arquivos/favicon.png" type="image/x-icon" />
+    <!-- Favicon -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <!-- Bootstrap CSS -->
+    <!-- Nosso CSS -->
+    <link rel="stylesheet" href="./../../static/css/Tela Banco/banco.css" />
+    <!-- Nosso CSS -->
+    <!-- Titulo -->
+    <title>BizGrow</title>
+    <!-- Titulo -->
+</head>
+
+<body>
+    <!-- MAIN -->
+    <main class="container d-flex flex-column justify-content-center align-items-center">
+        <div>
+            <h1>Conta Bancaria</h1>
+        </div>
+        <div class="container bg-black rounded">
+            <div class="row flex-column-reverse flex-lg-row align-items-center">
+                <!-- Formulário -->
+                <form class="col-lg-4" action="">
+                    <!-- Banco da Conta -->
+                    <div>
+                        <h1 class="text-light fs-2 mt-2">Banco da Conta</h1>
+                        <select class="form-select" id="" required>
+                            <option selected disabled value="">Escolha uma opção</option>
+                            <option value="1">Nubank</option>
+                            <option value="2">Caixa</option>
+                            <option value="3">Bradesco</option>
+                        </select>
+                    </div>
+                    <!-- Banco da Conta -->
+                    <!-- Tipo da conta -->
+                    <div>
+                        <h1 class="text-light fs-2 mt-2">Tipo da Conta</h1>
+                        <select class="form-select" id="" required>
+                            <option selected disabled value="">Escolha uma opção</option>
+                            <option value="1">Corrente</option>
+                            <option value="2">Poupança</option>
+                        </select>
+                    </div>
+                    <!-- Tipo da conta -->
+                    <!-- Agência -->
+                    <div>
+                        <h1 class="text-light fs-2 mt-2">Agência</h1>
+                        <input type="text" class="form-control" id="" placeholder="Ex: 12345"
+                            required>
+                    </div>
+                    <!-- Agência -->
+                    <!-- Conta -->
+                    <div>
+                        <h1 class="text-light fs-2 mt-2">Conta</h1>
+                        <input type="text" class="form-control" id="" placeholder="Ex: 123456"
+                            required>
+                    </div>
+                    <!-- Conta -->
+                    <!-- Digito -->
+                    <div>
+                        <h1 class="text-light fs-2 mt-2">Digito</h1>
+                        <input type="text" class="form-control" id="" placeholder="Ex: 1" required>
+                    </div>
+                    <!-- Digito -->
+                    <!-- Botão -->
+                    <div class="text-center">
+                        <button class="btn btn-warning text-white my-3 px-5" type="submit">Adicionar Conta
+                            Bancária</button>
+                    </div>
+                    <!-- Botão -->
+                </form>
+                <!-- Formulário -->
+                <div class="col-lg-8">
+                    <div class="text-center mt-5 mt-lg-0">
+                        <img src="./../../static/arquivos/Tela Banco/cartao.svg" alt="Imagem de cartão" width="40%">
+                        <h1 class="text-white">Insira uma conta bancária para começar com os negócios!</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- MAIN -->
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <!-- Nosso JS -->
+    <Script src="./../../static/js/Tela Banco/banco.js"></Script>
+    <!-- Nosso JS -->
+</body>
+
+</html>

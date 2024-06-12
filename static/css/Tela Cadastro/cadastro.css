@@ -1,0 +1,28 @@
+/* Importação de Fontes */
+
+/* Importação de Fontes */
+
+/* Fundo */
+
+body {
+    background-color: #f3f3f3;
+}
+
+/* Fundo */
+
+/* Viewports */
+
+main {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+/* Viewports */
+
+/* Estilizações */
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* Estilizações */
